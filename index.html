@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cadastro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerenciamento de Usuarios</title>
     <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Gerenciamento de Cadastro</h1>
-    <div id="novo"></div>
-        <input type="text" placeholder="Nome">
-        <input type="password" placeholder="Senha">
-        <input type="text" placeholder="Seu Email">
-        <button> Cadastrar </button>
-    <div id="deletar"></div>
-        <input type="text" placeholder="Nome do Usuário">
-        <button> Apagar </button>
-    <div id="testar">
-        <input type="text" placeholder="Nome do Usuário">
-        <input type="text" placeholder="Senha">
-        <button> Teste de Login </button>
+    <h1>Gerenciamento de usuários</h1>
+    <div id="controles">
+        <div id="novo">
+            <input type="text" placeholder="Nome do usuario">
+            <input type="password" placeholder="Senha">
+            <input type="email" placeholder="Email do Usuario">
+            <button>Cadastrar</button>
+        </div>
+        <div id="apagar">
+            <input type="text" placeholder="Nome do usuario">
+            <button>Apagar</button>
+        </div>
+        <div id="testar">
+            <input type="text" placeholder="Nome do usuario">
+            <input type="password" placeholder="Senha">
+            <button>Teste de Login</button>
+        </div>
     </div>
-    <div id="listadeusuarios"></div>
+    <div id="listadeusuarios">
+    </div>
 </body>
 </html>
